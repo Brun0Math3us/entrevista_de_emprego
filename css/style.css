@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(rgb(84, 255, 84), rgb(0, 187, 0));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    flex-direction: row;
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 3px black;
+}
+
+form{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    margin: 10px;
+    margin-bottom: 37px;
+}
+
+footer{
+    bottom: 0;
+    position: fixed;
+}
+
+div{
+    padding: 5px;
+}
+
+fieldset{
+    padding: 10px;
+}
+
+p{
+    color: black;
+    text-shadow: 1px 1px white;
+    padding: 5px;
+}

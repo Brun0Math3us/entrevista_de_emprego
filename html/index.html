@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Formulário Profissional</title>
+        <link rel="icon" type="image/x-icon" href="../img/info-circle.svg"/>
+        <link rel="stylesheet" href="../css/style.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Formulário Profissional</h1>
+        </header>
+        <main>
+            <h2>Preencha os dados abaixo:</h2>
+            <form>
+                <fieldset>
+                    <p>Dados de identificação</p>
+                    <div>
+                        <label for="name">Nome</label>
+                        <input type="text" placeholder="insira o seu nome">
+                    </div>
+                    <div>
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" placeholder="insira o seu sobrenome">
+                    </div>
+                    <div>
+                        <label for="age">Idade</label>
+                        <input type="number" name="age" id="age" placeholder="insira a sua idade" maxlength="2" minlength="2">
+                    </div>
+                    <div>
+                        <label for="estado">Estado civil</label>
+                        <select name="estado civil" id="estado civil">
+                        <option value="solteiro">solteiro</option>
+                        <option value="casado">Casado</option>
+                    </select>
+                    </div>
+                    <p>Dados de conhecimento</p>
+                    <div>
+                        <label>Fale um pouco sobre você</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label>Qual o seu objetivo na empresa</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label>O que você sabe sobre a empresa</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label>Quais são seus pontos fortes</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label>Quais são seus pontos fracos</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label>Por que mudou de carreira</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label> você tem alguma pergunta</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="confirm">Confirmar</label>
+                        <input type="button" value="confirmar">
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <p>Benedett´s Company © 2023</p>
+        </footer>
+    </body>
+</html>
